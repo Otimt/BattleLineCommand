@@ -43,11 +43,11 @@ namespace BattleLineCommand.View{
 			
 			// todo 旋转
 			if (Input.GetKey(KeyCode.Q)) {
-				rotaVector3.y -= yspeed;
+				rotaVector3.y += yspeed;
 				transform.rotation = Quaternion.Euler(rotaVector3);
 				//transform.Rotate(0,rotaVector3.y / 180 * Mathf.PI ,0,Space.World);
 			}else if (Input.GetKey(KeyCode.E)) {
-				rotaVector3.y += yspeed;
+				rotaVector3.y -= yspeed;
 				transform.rotation = Quaternion.Euler(rotaVector3);
 				//transform.Rotate(0,rotaVector3.y / 180 * Mathf.PI,0,Space.World);
 			}

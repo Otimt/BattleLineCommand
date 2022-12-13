@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 33195996598642546}
   - component: {fileID: 23404259603573616}
   - component: {fileID: 95986988376157106}
+  - component: {fileID: 2036015629997096269}
   m_Layer: 0
   m_Name: HexTop_Wasteland
   m_TagString: Untagged
@@ -142,6 +143,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &2036015629997096269
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839575483189240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: d3b607ed9a1f9d648bf57d9824ca4815, type: 3}
 --- !u!1 &959652161216847494
 GameObject:
   m_ObjectHideFlags: 0

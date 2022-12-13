@@ -50,6 +50,7 @@ GameObject:
   - component: {fileID: 33034917829144510}
   - component: {fileID: 23645304627436752}
   - component: {fileID: 95719108780574786}
+  - component: {fileID: 3299300257966007599}
   m_Layer: 0
   m_Name: HexTop_Desert
   m_TagString: Untagged
@@ -142,6 +143,20 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!64 &3299300257966007599
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710670703866666}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 16a68787b633c3a4da4a11f4483a97f5, type: 3}
 --- !u!1 &377236530920530282
 GameObject:
   m_ObjectHideFlags: 0
