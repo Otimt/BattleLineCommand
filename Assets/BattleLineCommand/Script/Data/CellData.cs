@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Cell : MonoBehaviour
+public class CellData : MonoBehaviour
 {
 	public int height;
 	public int x;

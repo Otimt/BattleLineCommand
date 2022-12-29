@@ -51,7 +51,7 @@ namespace BattleLineCommand.View{
 		GameObject CreateChild(int indexX, int indexY, int height) {
 
 			GameObject cellPrefab = AssetDatabase.LoadAssetAtPath("Assets/BattleLineCommand/Prefabs/HexTile_Clay.prefab", typeof(GameObject)) as GameObject;
-            GameObject cell = (GameObject)Instantiate(cellPrefab);
+            GameObject cell = (GameObject)Instantiate(cellPrefab, this.gameObject.transform);
             cell.name = "cell_"+indexX+"_"+indexY;
 
             Vector3 size = cell.GetComponentInChildren<Renderer>().bounds.size;
@@ -84,17 +84,6 @@ namespace BattleLineCommand.View{
 			return hitInfo.collider == null;
 		}
 
-		Mesh CreateMesh() {
-			Mesh mesh = new Mesh();
-
-			mesh.name = "Grid Cell";
-			mesh.vertices = new Vector3[] { Vector3.zero, Vector3.zero, Vector3.zero, Vector3.zero };
-			mesh.triangles = new int[] { 0, 1, 2, 2, 1, 3 };
-			mesh.normals = new Vector3[] { Vector3.up, Vector3.up, Vector3.up, Vector3.up };
-			mesh.uv = new Vector2[] { new Vector2(1, 1), new Vector2(1, 0), new Vector2(0, 1), new Vector2(0, 0) };
-
-			return mesh;
-		}
 
 		
 

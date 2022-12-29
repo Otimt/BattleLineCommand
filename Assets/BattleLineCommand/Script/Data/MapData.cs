@@ -1,5 +1,5 @@
 namespace BattleLineCommand.Data{
-	public class Map {
+	public class MapData {
 		
 	}
 }

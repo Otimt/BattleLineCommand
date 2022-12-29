@@ -1,5 +1,5 @@
 namespace BattleLineCommand.Data{
-	public class Fighter {
+	public class FighterData {
 	
 		private int id;
 		private string name;
